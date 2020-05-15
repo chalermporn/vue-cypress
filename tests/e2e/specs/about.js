@@ -3,6 +3,6 @@
 describe('show about', () => {
   it('Visits the app root url', () => {
     cy.visit('#/about')
-    cy.contains('h1', 'This is an about page')
+    cy.contains('h1', 'This is an about page1')
   })
 })
